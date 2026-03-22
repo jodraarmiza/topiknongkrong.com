@@ -77,14 +77,11 @@ export default function RouletteApp() {
     );
 
     // If all exhausted, reset and start over
-    let didReset = false;
     if (available.length === 0) {
-      // Clear only the keys in the current pool so other categories stay tracked
       const newShown = new Set(shownRef.current);
       pool.forEach(({ catId, topicIndex }) => newShown.delete(`${catId}-${topicIndex}`));
       saveShown(newShown);
       available = pool;
-      didReset = true;
     }
 
     const picked = available[Math.floor(Math.random() * available.length)];
@@ -166,9 +163,6 @@ export default function RouletteApp() {
           {isSpinning ? ui.spinning : ui.spin}
         </button>
 
-        {/* Ad — between spin button and topic card */}
-        <AdSlot size="banner" />
-
         {/* Topic Card */}
         <TopicCard
           topic={currentTopicText}
@@ -177,8 +171,10 @@ export default function RouletteApp() {
           lang={lang}
         />
 
-        {/* Ad — below topic card */}
-        <AdSlot size="rectangle" />
+        {/* Ad — below topic card, hidden on mobile */}
+        <div className="hidden sm:block w-full">
+          <AdSlot size="rectangle" />
+        </div>
 
         {/* History */}
         <HistoryPanel
