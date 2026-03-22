@@ -15,7 +15,7 @@ export const metadata = {
   title: "Topik Nongkrong",
   description: "Spin roulette topik buat obrolan nongkrong yang seru!",
   verification: {
-    google: "0w8Pbdn9h11AGCJu9EgOqmXnP3wCLwVGnMpGEbMdCy4",
+    google: ["0w8Pbdn9h11AGCJu9EgOqmXnP3wCLwVGnMpGEbMdCy4", "FNgCJOB9FcCWcdwL3oMCLed1j9qQ98uQADSD873tL2g"],
   },
 };
 
