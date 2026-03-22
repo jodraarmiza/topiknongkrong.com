@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: "https://topik-nongkrongcom.vercel.app",
+      url: "https://topiknongkrong.com",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
