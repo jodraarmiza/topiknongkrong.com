@@ -73,12 +73,15 @@ export default function GachaMachine({ isSpinning }) {
               animate={isSpinning ? {
                 x: [0, (i % 2 ? 1 : -1) * (5 + (i % 4) * 3), (i % 2 ? -1 : 1) * 9, 0],
                 y: [0, -7 + (i % 3) * 4, 11 - (i % 4) * 3, 0],
-              } : {}}
+              } : {
+                x: [0, (i % 2 ? 1 : -1) * (3 + (i % 3) * 2), (i % 2 ? -1 : 1) * 4, 0],
+                y: [0, -(4 + (i % 4) * 2), (3 + (i % 3)), 0],
+              }}
               transition={{
-                duration: 0.38 + i * 0.035,
+                duration: isSpinning ? 0.38 + i * 0.035 : 2.5 + i * 0.3,
                 repeat: Infinity,
                 ease: "easeInOut",
-                delay: i * 0.03,
+                delay: i * (isSpinning ? 0.03 : 0.15),
               }}
               style={{
                 position: "absolute",

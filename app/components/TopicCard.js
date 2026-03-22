@@ -50,7 +50,7 @@ export default function TopicCard({ topic, categoryId, historyCount, lang }) {
             </button>
             {historyCount > 0 && (
               <span className="text-xs text-gray-400 dark:text-gray-500">
-                {historyCount} {lang === "en" ? "topics tonight" : "topik tadi malam"}
+                {historyCount} {lang === "en" ? "topics saved" : "topik tersimpan"}
               </span>
             )}
           </div>
