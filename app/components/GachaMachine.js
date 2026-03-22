@@ -19,7 +19,7 @@ const BALLS = [
 
 export default function GachaMachine({ isSpinning }) {
   return (
-    <div className="flex flex-col items-center scale-[0.78] sm:scale-100 origin-top" style={{ userSelect: "none" }}>
+    <div className="flex flex-col items-center scale-[0.78] sm:scale-100 origin-top -mb-[72px] sm:mb-0" style={{ userSelect: "none" }}>
 
       {/* Globe wrapper — ears + globe */}
       <div style={{ position: "relative", width: 240, height: 240 }}>
