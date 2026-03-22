@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Topik Nongkrong",
   description: "Spin roulette topik buat obrolan nongkrong yang seru!",
+  verification: {
+    google: "0w8Pbdn9h11AGCJu9EgOqmXnP3wCLwVGnMpGEbMdCy4",
+  },
 };
 
 export const viewport = {
