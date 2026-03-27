@@ -9,6 +9,7 @@ import HistoryPanel from "./HistoryPanel";
 import ThemeToggle from "./ThemeToggle";
 import LangToggle from "./LangToggle";
 import AdSlot from "./AdSlot";
+import FooterLinks from "./FooterLinks";
 
 const HISTORY_KEY = "nongkrong_history";
 const SHOWN_KEY = "nongkrong_shown";
@@ -186,8 +187,11 @@ export default function RouletteApp() {
           }}
         />
 
-        <footer className="text-xs text-gray-400 dark:text-gray-600 text-center pb-6">
-          {lang === "id" ? "Dibuat iseng buat nongkrong makin seru 🙌" : "Made for better hangout conversations 🙌"}
+        <footer className="flex flex-col items-center gap-3 text-center pb-6">
+          <p className="text-xs text-gray-400 dark:text-gray-600">
+            {lang === "id" ? "Dibuat iseng buat nongkrong makin seru 🙌" : "Made for better hangout conversations 🙌"}
+          </p>
+          <FooterLinks />
         </footer>
       </div>
     </main>
