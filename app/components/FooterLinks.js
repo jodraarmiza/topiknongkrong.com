@@ -49,7 +49,6 @@ Dibuat iseng oleh Muhammad Jodra Armiza, fullstack developer.
     body: `
 Ada masukan, ide topik baru, atau mau kerja sama?
 
-📸 Instagram: @jodraarmiza
 🐙 GitHub: github.com/jodraarmiza
 
 Gua terbuka buat segala feedback — terutama kalau ada topik yang pengen lo tambahin ke website ini!
