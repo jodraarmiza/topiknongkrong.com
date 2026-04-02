@@ -465,7 +465,7 @@ export const categories = [
     borderColor: "border-green-300",
     textColor: "text-green-700",
     topics: [
-      "Lo dikasih Rp 1 juta tapi harus habis dalam 24 jam di kota ini — belanja apa?",
+      "Lo dikasih Rp 100 juta tapi harus habis dalam 24 jam di kota ini — belanja apa?",
       "Kalau ada satu orang di grup ini yang jadi miliarder, siapa dan kenapa?",
       "Pilih salah satu: bisa terbang tapi semua orang tau, atau bisa invisible tapi takut gelap.",
       "Kalau hidup lo jadi reality show, judul episode malam ini apa?",
@@ -517,7 +517,7 @@ export const categories = [
       "Ceritain momen paling cringe yang pernah terjadi di grup ini — siapa yang paling ingat?",
     ],
     topicsEn: [
-      "You're given Rp 1 million but must spend it all in 24 hours in this city — what do you buy?",
+      "You're given Rp 100 million but must spend it all in 24 hours in this city — what do you buy?",
       "If one person in this group is going to become a billionaire, who is it and why?",
       "Choose: you can fly but everyone knows, or you can be invisible but you're afraid of the dark.",
       "If your life was a reality show, what would tonight's episode be titled?",
